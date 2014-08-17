@@ -1,0 +1,67 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>de.javanarior</groupId>
+        <artifactId>javanarior-oss-pom</artifactId>
+        <version>5</version>
+    </parent>
+
+
+
+    <artifactId>javanarior-build-resources</artifactId>
+    <version>2-SNAPSHOT</version>
+
+
+
+    <name>Javanarior Build Resources</name>
+    <description>Configuration files for code quality tools and ide's</description>
+    <url>https://github.com/javanarior/${project.artifactId}</url>
+
+
+
+    <licenses>
+        <license>
+            <name>Apache License 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+    </licenses>
+    <inceptionYear>2014</inceptionYear>
+
+
+
+    <developers>
+        <developer>
+            <name>Sven</name>
+            <email>javanarior (a) gmail dot com</email>
+            <organizationUrl>https://github.com/javanarior</organizationUrl>
+        </developer>
+    </developers>
+
+
+
+    <scm>
+        <url>scm:http://github.com/javanarior/${project.artifactId}</url>
+        <connection>scm:http://github.com/javanarior/${project.artifactId}.git</connection>
+        <developerConnection>scm:git:git@github.com:javanarior/${project.artifactId}.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
+
+
+    <distributionManagement>
+        <repository>
+            <id>bintray-javanarior-maven</id>
+            <name>javanarior-maven</name>
+            <url>https://api.bintray.com/maven/javanarior/maven/${project.artifactId}</url>
+        </repository>
+        <snapshotRepository>
+            <id>output-directory</id>
+            <name>output-directory</name>
+            <url>file:///${project.build.directory}</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+</project>
