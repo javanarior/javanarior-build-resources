@@ -11,7 +11,7 @@
 
 
     <artifactId>javanarior-build-resources</artifactId>
-    <version>2</version>
+    <version>3-SNAPSHOT</version>
 
 
 
@@ -45,7 +45,7 @@
         <url>scm:http://github.com/javanarior/${project.artifactId}</url>
         <connection>scm:http://github.com/javanarior/${project.artifactId}.git</connection>
         <developerConnection>scm:git:git@github.com:javanarior/${project.artifactId}.git</developerConnection>
-        <tag>releases/javanarior-build-resources_2</tag>
+        <tag>HEAD</tag>
     </scm>
 
 
