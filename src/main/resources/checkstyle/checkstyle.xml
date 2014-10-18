@@ -286,6 +286,7 @@
             <property name="basicOffset" value="4" />
             <property name="tabWidth" value="4" />
             <property name="caseIndent" value="4" />
+            <property name="throwsIndent" value="16" />
         </module>
         <module name="EqualsHashCode">
             <property name="severity" value="error" />
