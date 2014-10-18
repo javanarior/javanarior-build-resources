@@ -349,8 +349,8 @@
         <module name="MutableException">
             <property name="severity" value="warning" />
         </module>
-          <module name="SuppressionFilter">
-            <property name="file" value="${checkstyle.suppressions.file}" />
-          </module>
+    </module>
+    <module name="SuppressionFilter">
+        <property name="file" value="${checkstyle.suppressions.file}" />
     </module>
 </module>
