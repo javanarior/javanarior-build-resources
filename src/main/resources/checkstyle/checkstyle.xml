@@ -40,7 +40,7 @@
         <property name="format" value="\s+$" />
     </module>
     <module name="JavadocPackage">
-        <property name="severity" value="info" />
+        <property name="severity" value="warning" />
         <property name="allowLegacy" value="false" />
     </module>
     <module name="TreeWalker">
@@ -67,7 +67,7 @@
             <property name="severity" value="warning" />
         </module>
         <module name="NoWhitespaceBefore">
-            <property name="severity" value="info" />
+            <property name="severity" value="warning" />
             <property name="tokens" value="SEMI,DOT,POST_DEC,POST_INC" />
             <property name="allowLineBreaks" value="false" />
         </module>
@@ -94,7 +94,7 @@
             <property name="severity" value="warning" />
         </module>
         <module name="ParenPad">
-            <property name="severity" value="info" />
+            <property name="severity" value="warning" />
             <property name="option" value="nospace" />
             <property name="tokens"
                 value="CTOR_CALL,LPAREN,METHOD_CALL,RPAREN,SUPER_CTOR_CALL" />
@@ -112,7 +112,7 @@
             <property name="max" value="5" />
         </module>
         <module name="WhitespaceAfter">
-            <property name="severity" value="info" />
+            <property name="severity" value="warning" />
             <property name="tokens" value="COMMA,SEMI" />
         </module>
         <module name="UpperEll">
@@ -186,14 +186,14 @@
             <property name="max" value="3" />
         </module>
         <module name="PackageAnnotation">
-            <property name="severity" value="info" />
+            <property name="severity" value="warning" />
         </module>
         <module name="OuterTypeNumber">
-            <property name="severity" value="info" />
+            <property name="severity" value="warning" />
             <property name="max" value="1" />
         </module>
         <module name="MagicNumber">
-            <property name="severity" value="info" />
+            <property name="severity" value="warning" />
             <property name="ignoreAnnotation" value="true" />
             <property name="ignoreHashCodeMethod" value="true" />
             <property name="tokens"
@@ -219,7 +219,7 @@
             <property name="severity" value="warning" />
         </module>
         <module name="RedundantModifier">
-            <property name="severity" value="info" />
+            <property name="severity" value="warning" />
             <property name="tokens"
                 value="METHOD_DEF,VARIABLE_DEF,ANNOTATION_FIELD_DEF,INTERFACE_DEF" />
         </module>
@@ -234,7 +234,7 @@
             <property name="maxLineLength" value="120" />
         </module>
         <module name="DeclarationOrder">
-            <property name="severity" value="info" />
+            <property name="severity" value="warning" />
         </module>
         <module name="MethodName">
             <property name="severity" value="warning" />
@@ -251,16 +251,16 @@
             <property name="severity" value="warning" />
         </module>
         <module name="AvoidStarImport">
-            <property name="severity" value="info" />
+            <property name="severity" value="warning" />
             <property name="allowClassImports" value="false" />
             <property name="allowStaticMemberImports" value="false" />
         </module>
         <module name="EmptyForIteratorPad">
-            <property name="severity" value="info" />
+            <property name="severity" value="warning" />
             <property name="option" value="nospace" />
         </module>
         <module name="OperatorWrap">
-            <property name="severity" value="info" />
+            <property name="severity" value="warning" />
             <property name="option" value="nl" />
             <property name="tokens"
                 value="BAND,BOR,BSR,BXOR,COLON,DIV,EQUAL,GE,GT,LAND,LE,LITERAL_INSTANCEOF,LOR,LT,MINUS,MOD,NOT_EQUAL,PLUS,QUESTION,SL,SR,STAR" />
@@ -302,7 +302,7 @@
             <property name="allowLineBreaks" value="false" />
         </module>
         <module name="EmptyStatement">
-            <property name="severity" value="info" />
+            <property name="severity" value="warning" />
         </module>
         <module name="RightCurly">
             <property name="severity" value="warning" />
@@ -320,7 +320,7 @@
             <property name="severity" value="warning" />
         </module>
         <module name="WhitespaceAround">
-            <property name="severity" value="info" />
+            <property name="severity" value="warning" />
             <property name="allowEmptyConstructors" value="false" />
             <property name="allowEmptyMethods" value="false" />
             <property name="tokens"
@@ -339,10 +339,10 @@
             <property name="allowMissingPropertyJavadoc" value="true" />
         </module>
         <module name="ModifierOrder">
-            <property name="severity" value="info" />
+            <property name="severity" value="warning" />
         </module>
         <module name="NoWhitespaceAfter">
-            <property name="severity" value="info" />
+            <property name="severity" value="warning" />
             <property name="tokens"
                 value="ARRAY_INIT,BNOT,DEC,DOT,INC,LNOT,UNARY_MINUS,UNARY_PLUS,TYPECAST" />
             <property name="allowLineBreaks" value="true" />
