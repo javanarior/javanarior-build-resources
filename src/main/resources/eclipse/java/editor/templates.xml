@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="Add Fixme" enabled="true" name="fixme">// FIXME ${user} ${activeTaskKey} ${date}: ${cursor}</template><template autoinsert="true" context="java" deleted="false" description="Add License Header Apache 2.0" enabled="true" name="License">/*&#13;
- * Copyright ${year} Sven von Pluto - javanarior (a) gmail dot com&#13;
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="Add Fixme" enabled="true" name="fixme">// FIXME ${user} ${activeTaskKey} ${date}: ${cursor}</template><template autoinsert="true" context="java" deleted="false" description="Formatter off" enabled="true" name="foff">// @formatter:off</template><template autoinsert="true" context="java" deleted="false" description="Formatter on" enabled="true" name="fon">// @formatter:on</template><template autoinsert="true" context="java" deleted="false" description="Add License Header Apache 2.0" enabled="true" name="License">/*&#13;
+ * Copyright (C) ${year} Sven von Pluto - javanarior (a) gmail dot com&#13;
  *&#13;
  * Licensed under the Apache License, Version 2.0 (the "License");&#13;
  * you may not use this file except in compliance with the License.&#13;
