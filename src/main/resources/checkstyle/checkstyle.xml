@@ -178,7 +178,7 @@
     </module>
     <module name="LineLength">
       <property name="severity" value="warning"/>
-      <property name="max" value="120"/>
+      <property name="max" value="123"/>
       <property name="tabWidth" value="4"/>
     </module>
     <module name="NestedTryDepth">
