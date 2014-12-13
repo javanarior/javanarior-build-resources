@@ -96,6 +96,7 @@
     </module>
     <module name="IllegalImport">
       <property name="severity" value="warning"/>
+      <property name="illegalPkgs" value="sun,oracle"/>
     </module>
     <module name="ClassFanOutComplexity">
       <property name="severity" value="warning"/>
