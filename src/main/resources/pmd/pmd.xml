@@ -118,12 +118,6 @@
   <rule ref="rulesets/java/naming.xml/SuspiciousConstantFieldName">
     <priority>3</priority>
   </rule>
-  <rule ref="rulesets/java/codesize.xml/ExcessiveMethodLength">
-    <priority>3</priority>
-    <properties>
-      <property name="minimum" value="25" />
-    </properties>
-  </rule>
   <rule ref="rulesets/java/design.xml/SimplifyBooleanReturns">
     <priority>4</priority>
   </rule>
@@ -162,9 +156,6 @@
     <properties>
       <property name="staticLoggerName" value="LOG" />
     </properties>
-  </rule>
-  <rule ref="rulesets/java/design.xml/EqualsNull">
-    <priority>2</priority>
   </rule>
   <rule ref="rulesets/java/design.xml/AvoidReassigningParameters">
     <priority>3</priority>
