@@ -278,10 +278,6 @@
   <module name="RegexpMultiline">
     <property name="severity" value="warning"/>
     <property name="format" value="^.*\r\n"/>
-  </module>
-  <module name="RegexpMultiline">
-    <property name="severity" value="warning"/>
-    <property name="format" value="^.*\r\n"/>
     <property name="message" value="EOL should be Unix Style (\n)"/>
   </module>
   <module name="FileTabCharacter">
