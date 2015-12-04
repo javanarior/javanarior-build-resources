@@ -21,13 +21,13 @@
     <parent>
         <groupId>de.javanarior</groupId>
         <artifactId>javanarior-oss-pom</artifactId>
-        <version>44</version>
+        <version>55</version>
     </parent>
 
 
 
     <artifactId>javanarior-build-resources</artifactId>
-    <version>13-SNAPSHOT</version>
+    <version>14-SNAPSHOT</version>
 
 
 
