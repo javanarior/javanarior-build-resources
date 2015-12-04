@@ -299,8 +299,4 @@
   <module name="SuppressionFilter">
     <property name="file" value="${checkstyle.suppressions.file}"/>
   </module>
-  <module name="SuppressionCommentFilter">
-    <property name="offCommentFormat" value="CHECKSTYLE\:OFF"/>
-    <property name="onCommentFormat" value="CHECKSTYLE\:ON"/>
-  </module>
 </module>
