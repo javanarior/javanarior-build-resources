@@ -142,7 +142,7 @@
   <rule ref="rulesets/java/codesize.xml/ExcessiveParameterList">
     <priority>3</priority>
     <properties>
-      <property name="minimum" value="5" />
+      <property name="minimum" value="6" />
     </properties>
   </rule>
   <rule ref="rulesets/java/logging-java.xml/LoggerIsNotStaticFinal">
